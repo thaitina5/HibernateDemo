@@ -23,7 +23,7 @@ public class TestCat {
 //		Cat c2 = cd.selectById(c);
 //		System.out.println(c2);
 		
-		//Test insert va update
+		//Test insert va update 
 		Cat c3 = new Cat("Issac 2",new Date(System.currentTimeMillis()),true);
 		c3.setId(3);
 		cd.insert(c3);

@@ -102,7 +102,7 @@ public class CatDAO implements DAOInterface<Cat>{
 		try {
 			SessionFactory sessionFactory = HibernateUtil.getSessionFactory();
 			if(sessionFactory!=null) {
-				Session session = sessionFactory.openSession();
+					Session session = sessionFactory.openSession();
 				Transaction tr = session.beginTransaction();
 				
 				session.delete(t);
